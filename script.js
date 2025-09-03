@@ -1,5 +1,5 @@
 // Configuration
-const CLIENT_API_URL = 'https://your-render-app-name.onrender.com'; // Replace with your Render app URL
+const CLIENT_API_URL = 'https://booking-outcome-form.onrender.com'; // Your Render app URL
 const MEETING_WEBHOOK_URL = 'https://hook.eu2.make.com/lnjsqwqvhg57sa6ud5gmv413d2rsg81o'; // Your existing webhook
 
 let clientDatabase = {};
