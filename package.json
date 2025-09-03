@@ -1,7 +1,7 @@
 {
-  "name": "client-database-server",
+  "name": "trader-brothers-client-database",
   "version": "1.0.0",
-  "description": "Standalone client database server with SQLite storage for Trader Brothers booking form",
+  "description": "Client database server for Trader Brothers booking form with Make.com integration",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -26,16 +26,13 @@
     "rest-api",
     "booking-system",
     "trader-brothers",
-    "make.com"
+    "make.com",
+    "render"
   ],
-  "author": "Your Name",
+  "author": "Trader Brothers",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/client-database-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/yourusername/client-database-server/issues"
-  },
-  "homepage": "https://github.com/yourusername/client-database-server#readme"
+    "url": "https://github.com/yourusername/trader-brothers-client-database.git"
+  }
 }
