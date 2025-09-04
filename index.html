@@ -430,8 +430,14 @@
             <div class="form-container">
                 <div class="auto-populate-section">
                     <h3>Quick Client Selection</h3>
-                    <div class="auto-populate-controls" id="clientButtons">
-                        <span class="loading-clients">Loading clients...</span>
+                    <div class="client-profiles-container">
+                        <div class="client-profiles" id="clientProfiles">
+                            <div class="loading-clients">Loading clients...</div>
+                        </div>
+                        <div class="control-buttons">
+                            <button type="button" class="btn-secondary" onclick="clearForm()">Clear Form</button>
+                            <button type="button" class="btn-secondary" onclick="refreshClients()">Refresh Clients</button>
+                        </div>
                     </div>
                 </div>
                 
