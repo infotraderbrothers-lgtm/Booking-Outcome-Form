@@ -121,6 +121,12 @@ function populateClient(clientKey) {
 // Clear form
 function clearForm() {
     document.getElementById('meetingForm').reset();
+    
+    // Remove client selection
+    document.querySelectorAll('.client-profile').forEach(profile => {
+        profile.classList.remove('selected');
+    });
+    
     hideMessages();
 }
 
